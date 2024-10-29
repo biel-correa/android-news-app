@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- CNN Mobile App Theme -->
+    <style name="Theme.CNN" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color (CNN Red) -->
+        <item name="colorPrimary">@color/cnn_red</item>
+        <item name="colorPrimaryVariant">@color/cnn_dark_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/cnn_gray</item>
+        <item name="colorSecondaryVariant">@color/cnn_dark_gray</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here -->
+    </style>
+</resources>
